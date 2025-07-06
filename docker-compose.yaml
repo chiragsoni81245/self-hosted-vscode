@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  text-editor:
+  vscode:
     build: .
-    container_name: text-editor
+    container_name: vscode
     ports:
       - 8080:8080
     volumes:
